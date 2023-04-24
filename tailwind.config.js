@@ -7,11 +7,17 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        'montserrat': ['Montserrat', 'sans-serif'],
       },
+      boxShadow: {
+        'header': '0px 2px 20px 0px rgba(0, 0, 0, 0.0625)', // Notez que 0F en hexadécimal correspond à 0.0625 en décimal
+      },
+      colors: {
+        'y-gray': '#808080',
+        'y-gray-light': '#EEEFF2',
+        'y-blue': '#1C366B',
+      }
     },
   },
   plugins: [],
